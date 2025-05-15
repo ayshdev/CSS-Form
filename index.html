@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form(CSS)</title>
+    <style>
+        body{
+            background-color: rgb(62, 62, 62);
+        }
+        #div1{
+            margin: auto;
+            width: 30%;
+            height: 70vh;
+            background-color: rgb(62, 62, 62);
+            text-align: center;
+            padding-top: 10%;
+
+    }
+    input{
+        width: 97%;
+        height: 30px;
+    }
+    #messagebox{
+        width: 97%;
+        height: 70px;
+    }
+    .inputts{
+        border: none;
+        outline: none;
+        border-bottom: 2px solid rgba(164, 164, 164, 0.967);
+        background-color: transparent;
+    }
+    textarea{
+        border: none;
+        outline: none;
+        border-bottom: 2px solid rgba(164, 164, 164, 0.967);
+        background-color: transparent;
+    }
+    #subbmit{
+        background-color: rgb(0, 162, 255);
+        color: #fff;
+        height: 40px;
+        width: 80px;
+        border-radius: 6px;
+    }
+    #canccel{
+        background-color: #fff;
+        color: #000;
+        height: 40px;
+        width: 80px;
+        border-radius: 6px;
+    }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <form action="">
+        <input type="text" placeholder="Name" class="inputts">
+        <br><br><br>
+        <input type="email" placeholder="Email" class="inputts">
+        <br><br><br>
+        <input type="password" placeholder="Password" class="inputts">
+        <br><br><br>
+        <input type="text" placeholder="Number" class="inputts">
+        <br><br><br>
+        <textarea name="" id="messagebox" placeholder="Message"></textarea>
+        <br><br><br>
+        <button id="subbmit">SUBMIT</button>&nbsp;&nbsp;&nbsp;&nbsp;<button id="canccel">CANCEL</button>
+        </form>
+    </div>
+</body>
+</html>
