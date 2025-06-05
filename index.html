@@ -20,12 +20,13 @@
     input{
         width: 97%;
         height: 30px;
+        color: white;
     }
     #messagebox{
         width: 97%;
         height: 70px;
     }
-    .inputts{
+    .inputs{
         border: none;
         outline: none;
         border-bottom: 2px solid rgba(164, 164, 164, 0.967);
@@ -37,14 +38,14 @@
         border-bottom: 2px solid rgba(164, 164, 164, 0.967);
         background-color: transparent;
     }
-    #subbmit{
+    #submit{
         background-color: rgb(0, 162, 255);
         color: #fff;
         height: 40px;
         width: 80px;
         border-radius: 6px;
     }
-    #canccel{
+    #cancel{
         background-color: #fff;
         color: #000;
         height: 40px;
@@ -55,18 +56,18 @@
 </head>
 <body>
     <div id="div1">
-        <form action="">
-        <input type="text" placeholder="Name" class="inputts">
+        <form action="get">
+        <input type="text" placeholder="Name" class="inputs">
         <br><br><br>
-        <input type="email" placeholder="Email" class="inputts">
+        <input type="email" placeholder="Email" class="inputs">
         <br><br><br>
-        <input type="password" placeholder="Password" class="inputts">
+        <input type="password" placeholder="Password" class="inputs">
         <br><br><br>
-        <input type="text" placeholder="Number" class="inputts">
+        <input type="text" placeholder="Number" class="inputs">
         <br><br><br>
         <textarea name="" id="messagebox" placeholder="Message"></textarea>
         <br><br><br>
-        <button id="subbmit">SUBMIT</button>&nbsp;&nbsp;&nbsp;&nbsp;<button id="canccel">CANCEL</button>
+        <button id="submit">SUBMIT</button>&nbsp;&nbsp;&nbsp;&nbsp;<button id="cancel">CANCEL</button>
         </form>
     </div>
 </body>
